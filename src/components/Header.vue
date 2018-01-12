@@ -8,7 +8,6 @@
         </li>
       </ul>
     </nav>
-    <lang></lang>
   </header>
 </template>
 
@@ -39,7 +38,7 @@ export default {
 
 .app-header {
   overflow: hidden;
-  
+
   h1 {
     text-align: center;
     margin: 30px 0 10px;
