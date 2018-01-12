@@ -8,6 +8,7 @@ body {
   background-image: url(assets/images/fondo.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 
   &:before {
     content: '';
@@ -34,14 +35,13 @@ a {
   box-sizing: border-box;
   padding: 30px;
   max-width: 1080px;
-  margin: 0 auto;  
+  margin: 0 auto;
 }
 
-#app {    
-  height: 100vh;  
+#app {
+  height: 100vh;
   position: relative;
   z-index: 2;
-  overflow: hidden;
 }
 
 .title {
