@@ -21,7 +21,8 @@ export default {
       path: '/',
       menu: [
         { path: '/', label: 'Inicio' },
-        { path: '/form', label: 'Formulario' }
+        { path: '/form', label: 'Formulario' },
+        { path: '/lista', label: 'Lista'}
       ]
     };
   },
