@@ -18,7 +18,7 @@
 
     <!-- Listado de empresas -->
     <div v-else>
-      <h3>Empresas</h3>
+      <h2 class="title">Empresas</h2>
       <div class="btn-container">
         <button class="btn btn-primary" @click="agregar">Agregar empresa</button>
       </div>
