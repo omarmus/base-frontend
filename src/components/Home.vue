@@ -1,17 +1,19 @@
 <template>
   <section>
-    <h2 class="title">Formulario</h2>
+    <h2 class="title">Ejemplos</h2>
     <h3>Número: {{ numero }}</h3>
-    Ingrese número: <input type="text" v-model="numero">
+    <div class="form-group">
+      <label>Ingrese número</label>
+      <input type="text" class="form-control" v-model="numero">
+    </div>
     <button type="button" @click="agregar()" class="btn btn-primary">Agregar</button>
     <ul v-if="lista.length > 0">
       <li v-for="item in lista">{{ item }}</li>
     </ul>
-    <div v-else>
+    <p v-else>
       La lista no tiene elementos
-    </div>
-    <button class="btn btn-primary" @click="sumar">Sumar números</button>
-    <h3>Suma total: {{ suma }}</h3>
+    </p>
+    <h3><button class="btn btn-primary" @click="sumar">Sumar números</button> Suma total: {{ suma }}</h3>
   </section>
 </template>
 
