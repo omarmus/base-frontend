@@ -21,7 +21,8 @@ export default {
       path: '/',
       menu: [
         { path: '/', label: 'Inicio' },
-        { path: '/lista', label: 'Empresas'}
+        { path: '/lista', label: 'Empresas'},
+        { path: '/usuarios', label: 'Usuarios' }
       ]
     };
   },
